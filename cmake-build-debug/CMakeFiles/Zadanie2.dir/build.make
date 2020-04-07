@@ -95,11 +95,53 @@ CMakeFiles/Zadanie2.dir/RBtree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Zadanie2.dir/RBtree.c.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Skola\2_semester\DSA\Zadanie2\RBtree.c -o CMakeFiles\Zadanie2.dir\RBtree.c.s
 
+CMakeFiles/Zadanie2.dir/DoubleHash.c.obj: CMakeFiles/Zadanie2.dir/flags.make
+CMakeFiles/Zadanie2.dir/DoubleHash.c.obj: ../DoubleHash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\2_semester\DSA\Zadanie2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Zadanie2.dir/DoubleHash.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Zadanie2.dir\DoubleHash.c.obj   -c D:\Skola\2_semester\DSA\Zadanie2\DoubleHash.c
+
+CMakeFiles/Zadanie2.dir/DoubleHash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Zadanie2.dir/DoubleHash.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Skola\2_semester\DSA\Zadanie2\DoubleHash.c > CMakeFiles\Zadanie2.dir\DoubleHash.c.i
+
+CMakeFiles/Zadanie2.dir/DoubleHash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Zadanie2.dir/DoubleHash.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Skola\2_semester\DSA\Zadanie2\DoubleHash.c -o CMakeFiles\Zadanie2.dir\DoubleHash.c.s
+
+CMakeFiles/Zadanie2.dir/LinkedHash.c.obj: CMakeFiles/Zadanie2.dir/flags.make
+CMakeFiles/Zadanie2.dir/LinkedHash.c.obj: ../LinkedHash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\2_semester\DSA\Zadanie2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Zadanie2.dir/LinkedHash.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Zadanie2.dir\LinkedHash.c.obj   -c D:\Skola\2_semester\DSA\Zadanie2\LinkedHash.c
+
+CMakeFiles/Zadanie2.dir/LinkedHash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Zadanie2.dir/LinkedHash.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Skola\2_semester\DSA\Zadanie2\LinkedHash.c > CMakeFiles\Zadanie2.dir\LinkedHash.c.i
+
+CMakeFiles/Zadanie2.dir/LinkedHash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Zadanie2.dir/LinkedHash.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Skola\2_semester\DSA\Zadanie2\LinkedHash.c -o CMakeFiles\Zadanie2.dir\LinkedHash.c.s
+
+CMakeFiles/Zadanie2.dir/BVStree.c.obj: CMakeFiles/Zadanie2.dir/flags.make
+CMakeFiles/Zadanie2.dir/BVStree.c.obj: ../BVStree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\2_semester\DSA\Zadanie2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Zadanie2.dir/BVStree.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Zadanie2.dir\BVStree.c.obj   -c D:\Skola\2_semester\DSA\Zadanie2\BVStree.c
+
+CMakeFiles/Zadanie2.dir/BVStree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Zadanie2.dir/BVStree.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Skola\2_semester\DSA\Zadanie2\BVStree.c > CMakeFiles\Zadanie2.dir\BVStree.c.i
+
+CMakeFiles/Zadanie2.dir/BVStree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Zadanie2.dir/BVStree.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Skola\2_semester\DSA\Zadanie2\BVStree.c -o CMakeFiles\Zadanie2.dir\BVStree.c.s
+
 # Object files for target Zadanie2
 Zadanie2_OBJECTS = \
 "CMakeFiles/Zadanie2.dir/main.c.obj" \
 "CMakeFiles/Zadanie2.dir/AVLtree.c.obj" \
-"CMakeFiles/Zadanie2.dir/RBtree.c.obj"
+"CMakeFiles/Zadanie2.dir/RBtree.c.obj" \
+"CMakeFiles/Zadanie2.dir/DoubleHash.c.obj" \
+"CMakeFiles/Zadanie2.dir/LinkedHash.c.obj" \
+"CMakeFiles/Zadanie2.dir/BVStree.c.obj"
 
 # External object files for target Zadanie2
 Zadanie2_EXTERNAL_OBJECTS =
@@ -107,11 +149,14 @@ Zadanie2_EXTERNAL_OBJECTS =
 Zadanie2.exe: CMakeFiles/Zadanie2.dir/main.c.obj
 Zadanie2.exe: CMakeFiles/Zadanie2.dir/AVLtree.c.obj
 Zadanie2.exe: CMakeFiles/Zadanie2.dir/RBtree.c.obj
+Zadanie2.exe: CMakeFiles/Zadanie2.dir/DoubleHash.c.obj
+Zadanie2.exe: CMakeFiles/Zadanie2.dir/LinkedHash.c.obj
+Zadanie2.exe: CMakeFiles/Zadanie2.dir/BVStree.c.obj
 Zadanie2.exe: CMakeFiles/Zadanie2.dir/build.make
 Zadanie2.exe: CMakeFiles/Zadanie2.dir/linklibs.rsp
 Zadanie2.exe: CMakeFiles/Zadanie2.dir/objects1.rsp
 Zadanie2.exe: CMakeFiles/Zadanie2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Skola\2_semester\DSA\Zadanie2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Zadanie2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Skola\2_semester\DSA\Zadanie2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Zadanie2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Zadanie2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Zadanie2.dir/AVLtree.c.obj"
+  "CMakeFiles/Zadanie2.dir/BVStree.c.obj"
+  "CMakeFiles/Zadanie2.dir/DoubleHash.c.obj"
+  "CMakeFiles/Zadanie2.dir/LinkedHash.c.obj"
   "CMakeFiles/Zadanie2.dir/RBtree.c.obj"
   "CMakeFiles/Zadanie2.dir/main.c.obj"
   "Zadanie2.exe"

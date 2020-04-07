@@ -18,7 +18,7 @@
  *				     That means each path contains same number of BLACK nodes.
  */
 #include "RBtree.h"
-
+#pragma GCC optimize("01") //optimalizacia kompilera
 /* Global, since all function will access them */
 struct node *ROOT;
 struct node *NILL;
@@ -268,4 +268,25 @@ void red_black_transplant(struct node *u, struct node *v){
     }
 
     v->parent = u->parent;
+}
+
+
+
+void deleteRB(struct node** root)
+{
+    if ((*root) == NILL) {
+        *root = NULL;
+        return;
+    }
+    if ((*root)->right->key != NILL->key) {
+        deleteRB(&((*root)->right));
+
+    } else (*root)->right = NULL;
+    if ((*root)->left->key != NILL->key) {
+        deleteRB(&((*root)->left));
+
+    } else (*root)->left = NULL;
+    free((*root));
+    *root = NULL;
+    //ROOT = NILL;
 }

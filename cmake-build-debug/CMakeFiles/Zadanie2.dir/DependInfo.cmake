@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "D:/Skola/2_semester/DSA/Zadanie2/AVLtree.c" "D:/Skola/2_semester/DSA/Zadanie2/cmake-build-debug/CMakeFiles/Zadanie2.dir/AVLtree.c.obj"
+  "D:/Skola/2_semester/DSA/Zadanie2/BVStree.c" "D:/Skola/2_semester/DSA/Zadanie2/cmake-build-debug/CMakeFiles/Zadanie2.dir/BVStree.c.obj"
+  "D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.c" "D:/Skola/2_semester/DSA/Zadanie2/cmake-build-debug/CMakeFiles/Zadanie2.dir/DoubleHash.c.obj"
+  "D:/Skola/2_semester/DSA/Zadanie2/LinkedHash.c" "D:/Skola/2_semester/DSA/Zadanie2/cmake-build-debug/CMakeFiles/Zadanie2.dir/LinkedHash.c.obj"
   "D:/Skola/2_semester/DSA/Zadanie2/RBtree.c" "D:/Skola/2_semester/DSA/Zadanie2/cmake-build-debug/CMakeFiles/Zadanie2.dir/RBtree.c.obj"
   "D:/Skola/2_semester/DSA/Zadanie2/main.c" "D:/Skola/2_semester/DSA/Zadanie2/cmake-build-debug/CMakeFiles/Zadanie2.dir/main.c.obj"
   )

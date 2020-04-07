@@ -4,10 +4,22 @@
 CMakeFiles/Zadanie2.dir/AVLtree.c.obj: ../AVLtree.c
 CMakeFiles/Zadanie2.dir/AVLtree.c.obj: ../AVLtree.h
 
+CMakeFiles/Zadanie2.dir/BVStree.c.obj: ../BVStree.c
+CMakeFiles/Zadanie2.dir/BVStree.c.obj: ../BVStree.h
+
+CMakeFiles/Zadanie2.dir/DoubleHash.c.obj: ../DoubleHash.c
+CMakeFiles/Zadanie2.dir/DoubleHash.c.obj: ../DoubleHash.h
+
+CMakeFiles/Zadanie2.dir/LinkedHash.c.obj: ../LinkedHash.c
+CMakeFiles/Zadanie2.dir/LinkedHash.c.obj: ../LinkedHash.h
+
 CMakeFiles/Zadanie2.dir/RBtree.c.obj: ../RBtree.c
 CMakeFiles/Zadanie2.dir/RBtree.c.obj: ../RBtree.h
 
 CMakeFiles/Zadanie2.dir/main.c.obj: ../AVLtree.h
+CMakeFiles/Zadanie2.dir/main.c.obj: ../BVStree.h
+CMakeFiles/Zadanie2.dir/main.c.obj: ../DoubleHash.h
+CMakeFiles/Zadanie2.dir/main.c.obj: ../LinkedHash.h
 CMakeFiles/Zadanie2.dir/main.c.obj: ../RBtree.h
 CMakeFiles/Zadanie2.dir/main.c.obj: ../main.c
 

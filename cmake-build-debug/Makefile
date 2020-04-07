@@ -149,6 +149,87 @@ AVLtree.c.s:
 	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/AVLtree.c.s
 .PHONY : AVLtree.c.s
 
+BVStree.obj: BVStree.c.obj
+
+.PHONY : BVStree.obj
+
+# target to build an object file
+BVStree.c.obj:
+	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/BVStree.c.obj
+.PHONY : BVStree.c.obj
+
+BVStree.i: BVStree.c.i
+
+.PHONY : BVStree.i
+
+# target to preprocess a source file
+BVStree.c.i:
+	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/BVStree.c.i
+.PHONY : BVStree.c.i
+
+BVStree.s: BVStree.c.s
+
+.PHONY : BVStree.s
+
+# target to generate assembly for a file
+BVStree.c.s:
+	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/BVStree.c.s
+.PHONY : BVStree.c.s
+
+DoubleHash.obj: DoubleHash.c.obj
+
+.PHONY : DoubleHash.obj
+
+# target to build an object file
+DoubleHash.c.obj:
+	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/DoubleHash.c.obj
+.PHONY : DoubleHash.c.obj
+
+DoubleHash.i: DoubleHash.c.i
+
+.PHONY : DoubleHash.i
+
+# target to preprocess a source file
+DoubleHash.c.i:
+	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/DoubleHash.c.i
+.PHONY : DoubleHash.c.i
+
+DoubleHash.s: DoubleHash.c.s
+
+.PHONY : DoubleHash.s
+
+# target to generate assembly for a file
+DoubleHash.c.s:
+	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/DoubleHash.c.s
+.PHONY : DoubleHash.c.s
+
+LinkedHash.obj: LinkedHash.c.obj
+
+.PHONY : LinkedHash.obj
+
+# target to build an object file
+LinkedHash.c.obj:
+	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/LinkedHash.c.obj
+.PHONY : LinkedHash.c.obj
+
+LinkedHash.i: LinkedHash.c.i
+
+.PHONY : LinkedHash.i
+
+# target to preprocess a source file
+LinkedHash.c.i:
+	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/LinkedHash.c.i
+.PHONY : LinkedHash.c.i
+
+LinkedHash.s: LinkedHash.c.s
+
+.PHONY : LinkedHash.s
+
+# target to generate assembly for a file
+LinkedHash.c.s:
+	$(MAKE) -f CMakeFiles\Zadanie2.dir\build.make CMakeFiles/Zadanie2.dir/LinkedHash.c.s
+.PHONY : LinkedHash.c.s
+
 RBtree.obj: RBtree.c.obj
 
 .PHONY : RBtree.obj
@@ -215,6 +296,15 @@ help:
 	@echo ... AVLtree.obj
 	@echo ... AVLtree.i
 	@echo ... AVLtree.s
+	@echo ... BVStree.obj
+	@echo ... BVStree.i
+	@echo ... BVStree.s
+	@echo ... DoubleHash.obj
+	@echo ... DoubleHash.i
+	@echo ... DoubleHash.s
+	@echo ... LinkedHash.obj
+	@echo ... LinkedHash.i
+	@echo ... LinkedHash.s
 	@echo ... RBtree.obj
 	@echo ... RBtree.i
 	@echo ... RBtree.s

@@ -6,13 +6,43 @@
 
 #IncludeRegexTransform: 
 
-D:/Skola/2_semester/DSA/Zadanie2/AVLtree.c
+D:/Skola/2_semester/DSA/Zadanie2/AVLtree.h
+
+D:/Skola/2_semester/DSA/Zadanie2/BVStree.c
 stdlib.h
 -
 stdio.h
 -
+BVStree.h
+D:/Skola/2_semester/DSA/Zadanie2/BVStree.h
+
+D:/Skola/2_semester/DSA/Zadanie2/BVStree.h
+
+D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.h
+
+D:/Skola/2_semester/DSA/Zadanie2/LinkedHash.h
+
+D:/Skola/2_semester/DSA/Zadanie2/RBtree.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/Skola/2_semester/DSA/Zadanie2/main.c
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
 AVLtree.h
 D:/Skola/2_semester/DSA/Zadanie2/AVLtree.h
-
-D:/Skola/2_semester/DSA/Zadanie2/AVLtree.h
+RBtree.h
+D:/Skola/2_semester/DSA/Zadanie2/RBtree.h
+BVStree.h
+D:/Skola/2_semester/DSA/Zadanie2/BVStree.h
+DoubleHash.h
+D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.h
+LinkedHash.h
+D:/Skola/2_semester/DSA/Zadanie2/LinkedHash.h
 
