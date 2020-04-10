@@ -25,5 +25,5 @@ void right_rotate(struct node *x);
 void red_black_insert(int key);
 void red_black_insert_fixup(struct node *z);
 struct node *tree_search(int key);
-struct node *tree_minimum(struct node *x);
 void deleteRB(struct node** root);
+void printRB(struct node *root, int space);

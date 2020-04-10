@@ -271,7 +271,7 @@ void red_black_transplant(struct node *u, struct node *v){
 }
 
 
-
+/* will delete tree*/
 void deleteRB(struct node** root)
 {
     if ((*root) == NILL) {
@@ -288,5 +288,17 @@ void deleteRB(struct node** root)
     } else (*root)->left = NULL;
     free((*root));
     *root = NULL;
-    //ROOT = NILL;
+}
+
+void printRB(struct node *root, int space) {
+    if (root == NILL)
+        return;
+
+    space += 10;
+    printRB(root->right, space);
+    for (int i = 10; i < space; i++)
+        printf(" ");
+    printf("%d\n", root->key);
+
+    printRB(root->left, space);
 }

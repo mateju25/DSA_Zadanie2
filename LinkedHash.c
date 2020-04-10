@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "LinkedHash.h"
-//pragma GCC optimize("01")
+#pragma GCC optimize("01")
 
 HASHTABLELINKED* array;
 int size;         /* Determines the no. of elements present in Hash Table */
@@ -225,15 +225,18 @@ void display()
     for (i = 0; i < max; i++)
     {
         DATA *temp = array[i].head;
+        printf("%d: ", i);
         if (temp != NULL)
         {
             while (temp != NULL)
             {
+                printf("%d ->", temp->value);
                 temp = temp->next;
             }
-            printf("\n");
 
         }
+        printf("\n");
+
     }
 }
 

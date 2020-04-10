@@ -8,15 +8,17 @@
 
 D:/Skola/2_semester/DSA/Zadanie2/AVLtree.h
 
-D:/Skola/2_semester/DSA/Zadanie2/BVStree.c
-stdlib.h
--
-stdio.h
--
-BVStree.h
 D:/Skola/2_semester/DSA/Zadanie2/BVStree.h
 
-D:/Skola/2_semester/DSA/Zadanie2/BVStree.h
+D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+DoubleHash.h
+D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.h
 
 D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.h
 
