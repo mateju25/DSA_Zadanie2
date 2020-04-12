@@ -77,16 +77,31 @@
 		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/AVLtree.c">
 			<Option target="Zadanie2"/>
 		</Unit>
+		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/AVLtree.h">
+			<Option target="Zadanie2"/>
+		</Unit>
 		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/BVStree.c">
+			<Option target="Zadanie2"/>
+		</Unit>
+		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/BVStree.h">
 			<Option target="Zadanie2"/>
 		</Unit>
 		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.c">
 			<Option target="Zadanie2"/>
 		</Unit>
+		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.h">
+			<Option target="Zadanie2"/>
+		</Unit>
 		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/LinkedHash.c">
 			<Option target="Zadanie2"/>
 		</Unit>
+		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/LinkedHash.h">
+			<Option target="Zadanie2"/>
+		</Unit>
 		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/RBtree.c">
+			<Option target="Zadanie2"/>
+		</Unit>
+		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/RBtree.h">
 			<Option target="Zadanie2"/>
 		</Unit>
 		<Unit filename="D:/Skola/2_semester/DSA/Zadanie2/main.c">

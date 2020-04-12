@@ -4,17 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+#include "DoubleHash.h"
 #pragma GCC optimize("01")
-
-typedef struct hashTable{
-    int countOfNumb;
-    int maxSize;
-    int primeSmall;
-    int* newArr;
-}HASHTABLE;
-
-void insertDoubleHash(HASHTABLE** paTable, int paVal);
 
 //vytvori hash tabulku
 HASHTABLE* createHash(HASHTABLE* paTable) {
@@ -67,7 +58,7 @@ void expandTable(HASHTABLE** paTable) {
     int* oldArr = (*paTable)->newArr;
     (*paTable)->newArr = (int*) malloc(sizeof(int) * (*paTable)->maxSize);
     if ((*paTable)->newArr == NULL) {
-        printf("Malo pamate. \n");
+        printf("Malo pamate");
         return;
     }
     for (int i = 0; i < (*paTable)->maxSize; i++) (*paTable)->newArr[i] = -1;
@@ -87,10 +78,6 @@ void expandTable(HASHTABLE** paTable) {
 void insertDoubleHash(HASHTABLE** paTable, int paVal) {
     if ((*paTable) == NULL)
         *paTable = createHash(*paTable);
-    if ((*paTable)->newArr == NULL) {
-        printf("Malo pamate. \n");
-        return;
-    }
     int index = hashFunctionFirst((*paTable), paVal);
     if ((*paTable)->newArr[index] == paVal) return;
 
