@@ -17,29 +17,11 @@
  *				  5. Each simple path taken from a node to descendent leaf has same number of black height.
  *				     That means each path contains same number of BLACK nodes.
  */
+#include "RBtree.h"
 #pragma GCC optimize("01") //optimalizacia kompilera
-
-#include <stdio.h>
-#include <stdlib.h>
-
-#define RED 0
-#define BLACK 1
-
-struct node{
-    int key;
-    int color;
-    struct node *parent;
-    struct node *left;
-    struct node *right;
-};
-
 /* Global, since all function will access them */
 struct node *ROOT;
 struct node *NILL;
-
-void red_black_insert_fixup(struct node *z);
-void left_rotate(struct node *x);
-void right_rotate(struct node *x);
 
 struct node *tree_search(int key){
     struct node *x;
@@ -73,10 +55,7 @@ struct node *tree_minimum(struct node *x){
 void red_black_insert(int key){
     struct node *z, *x, *y;
     z = malloc(sizeof(struct node));
-    if (z == NULL) {
-        printf("Malo pamate. \n");
-        return;
-    }
+
     z->key = key;
     z->color = RED;
     z->left = NILL;

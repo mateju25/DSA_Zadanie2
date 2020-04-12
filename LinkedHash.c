@@ -3,33 +3,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "LinkedHash.h"
 #pragma GCC optimize("01")
-/* Node for storing an item in a Linked List */
-typedef struct nodeHS
-{
-    int key;
-    int value;
-    struct nodeHS *next;
-}DATA;
-
-/* For storing a Linked List at each index of Hash Table  */
-typedef struct arrayitem
-{
-
-    DATA *head;
-    /* head pointing the first element of Linked List at an index of Hash Table */
-
-    DATA *tail;
-    /* tail pointing the last element of Linked List at an index of Hash Table */
-
-}HASHTABLELINKED;
 
 HASHTABLELINKED* array;
 int size;         /* Determines the no. of elements present in Hash Table */
 int max;	      /* Determines the maximum capacity of Hash Table array */
-
-void insertLinkedHS(int value);
 
 /* This function creates an index corresponding to the every given key */
 int hashcode(int key)
@@ -181,10 +160,6 @@ void insertLinkedHS(int value)
 
     /* Creating an item to insert in the Hash Table */
     DATA *item  = (DATA *)malloc(sizeof(DATA));
-    if (item == NULL) {
-        printf("Malo pamate. \n");
-        return;
-    }
     item->key = hashcode(value);
     item->value = value;
     item->next = NULL;
