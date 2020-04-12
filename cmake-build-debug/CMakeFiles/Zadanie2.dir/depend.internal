@@ -3,23 +3,18 @@
 
 CMakeFiles/Zadanie2.dir/AVLtree.c.obj
  D:/Skola/2_semester/DSA/Zadanie2/AVLtree.c
- D:/Skola/2_semester/DSA/Zadanie2/AVLtree.h
 CMakeFiles/Zadanie2.dir/BVStree.c.obj
  D:/Skola/2_semester/DSA/Zadanie2/BVStree.c
- D:/Skola/2_semester/DSA/Zadanie2/BVStree.h
 CMakeFiles/Zadanie2.dir/DoubleHash.c.obj
  D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.c
- D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.h
 CMakeFiles/Zadanie2.dir/LinkedHash.c.obj
  D:/Skola/2_semester/DSA/Zadanie2/LinkedHash.c
- D:/Skola/2_semester/DSA/Zadanie2/LinkedHash.h
 CMakeFiles/Zadanie2.dir/RBtree.c.obj
  D:/Skola/2_semester/DSA/Zadanie2/RBtree.c
- D:/Skola/2_semester/DSA/Zadanie2/RBtree.h
 CMakeFiles/Zadanie2.dir/main.c.obj
- D:/Skola/2_semester/DSA/Zadanie2/AVLtree.h
- D:/Skola/2_semester/DSA/Zadanie2/BVStree.h
- D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.h
- D:/Skola/2_semester/DSA/Zadanie2/LinkedHash.h
- D:/Skola/2_semester/DSA/Zadanie2/RBtree.h
+ D:/Skola/2_semester/DSA/Zadanie2/AVLtree.c
+ D:/Skola/2_semester/DSA/Zadanie2/BVStree.c
+ D:/Skola/2_semester/DSA/Zadanie2/DoubleHash.c
+ D:/Skola/2_semester/DSA/Zadanie2/LinkedHash.c
+ D:/Skola/2_semester/DSA/Zadanie2/RBtree.c
  D:/Skola/2_semester/DSA/Zadanie2/main.c
