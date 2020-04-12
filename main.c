@@ -2,16 +2,14 @@
 #include <stdlib.h>
 #include <windows.h>
 
+#include "AVLtree.c"
+#include "RBtree.c"
+#include "BVStree.c"
+#include "DoubleHash.c"
+#include "LinkedHash.c"
 
-
-#include "AVLtree.h"
-#include "RBtree.h"
-#include "BVStree.h"
-#include "DoubleHash.h"
-#include "LinkedHash.h"
-
-#define COUNT 10000000//velkost vstupu
-#define SAMPLE 5
+#define COUNT 100000000//velkost vstupu
+#define SAMPLE 1
 //pocet opakovani testov
 
 

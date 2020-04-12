@@ -6,6 +6,20 @@
 #include "AVLtree.h"
 #pragma GCC optimize("01")//optimalizacia kompilera
 
+//zisti ci treba balancovat vrchol
+#define NEED_BALANCE(base)     ((((base)->right == NULL) || ((base)->left == NULL)) ? 1 : (((base)->right->rank == (base)->left->rank) ? -1 : 1))
+//prerata hlbku podstromov
+#define MAX_RANK(base) ((((base)->right == NULL) && ((base)->left == NULL)) ? 0 : (    ((base)->right == NULL) ? ((base)->left->rank + 1) :  (    ((base)->left == NULL) ? ((base)->right->rank+1) :  (((base)->right->rank) > ((base)->left->rank)) ? ((base)->right->rank+1) : ((base)->left->rank+1)    )      )    )
+//zisti balance faktor
+#define DIFF_RANK(base) ((base == NULL) ? 0 : (    (((base)->right == NULL) && ((base)->left == NULL)) ? 0 : (    ((base)->right == NULL) ? 0-((base)->left->rank+1) :  (    ((base)->left == NULL) ? ((base)->right->rank+1) :  ((base)->right->rank) - ((base)->left->rank)   )      )    ))
+
+typedef struct nodeAVL{
+    int value;
+    int rank;
+    struct nodeAVL* left;
+    struct nodeAVL* right;
+}NODE_AVL;
+
 //vytvor vrchol
 NODE_AVL* createAVL()
 {
@@ -109,7 +123,7 @@ void insertAVL(NODE_AVL** root, int paVal)
         //vytvori na konci novy vrchol
         *root = createAVL();
         if (*root == NULL) {
-           printf("Malo pamate");
+           printf("Malo pamate. \n");
            return;
         }
         (*root)->value = paVal;
