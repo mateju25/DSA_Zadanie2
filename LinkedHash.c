@@ -156,7 +156,7 @@ void insertLinkedHS(int value)
     int index = hashcode(value);
 
     /* Extracting Linked List at a given index */
-    DATA *list = (DATA*) (array + index)->head;
+    DATA *list = (array + index)->head;
 
     /* Creating an item to insert in the Hash Table */
     DATA *item  = (DATA *)malloc(sizeof(DATA));

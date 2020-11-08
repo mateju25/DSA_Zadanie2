@@ -10,8 +10,8 @@
 #include "DoubleHash.h"
 #include "LinkedHash.h"
 
-#define COUNT 10000000//velkost vstupu
-#define SAMPLE 5
+#define COUNT 1000000//velkost vstupu
+#define SAMPLE 1
 //pocet opakovani testov
 
 
@@ -420,7 +420,7 @@ int main() {
     int*p = NULL;
 
     //testovanie funkcnosti
-    test_function();
+    //test_function();
 
     //testovanie linearnej postupnosti
     p =  test1_1n_sequence(COUNT, SAMPLE);
